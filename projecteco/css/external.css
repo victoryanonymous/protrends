@@ -1,0 +1,510 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 80px;
+    color: black;
+    background-color: white;
+}
+.left-align{
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-left: 70px;
+    font-size: 25px;
+}
+.left-align h1{
+    color: rgb(102, 79, 79);
+}
+.right-align{
+    position: absolute;
+    top:0px;
+    right: 80px;
+}
+.first > a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.first a:hover{
+    text-decoration: underline;
+}
+.visit{
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px 7px;
+}
+.visit a{
+    color: white;
+    text-decoration: none;
+}
+.second input[type="text"]{
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: rgb(14, 238, 238);
+}
+.second button[type="submit"]{
+    position: absolute;
+    right: 15px;
+    top: 11px;
+    border: none;
+    color: white;
+}
+.second1{
+    padding-left: 0px;
+}
+.second input[type="text"]{
+    height: 30px;
+    padding-right: 80px;
+    background-color: black;
+}
+.second{
+    padding: 10px;
+    position: absolute;
+    right: 100px;
+}
+.search button[type="submit"]{
+    background-color: white;
+    height: 30px;
+    width: 40px;
+    border-radius: 15px;
+}
+.search button[type="submit"]:hover{
+    background-color: rgb(158, 126, 126);
+}
+.heartdrop button[type="submit"]{
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    background-color: white;
+}
+.heartdrop button[type="submit"]:hover{
+    background-color: rgb(158, 126, 126);
+    border-radius: 11px;
+    width: 20px;
+}
+.cartdrop button[type="submit"]{
+    position: absolute;
+    background-color: white;
+    top: 15px;
+    right: -45px;
+    height: 23px;
+}
+.cartdrop button[type="submit"]:hover{
+    background-color: rgb(158, 126, 126);
+    border-radius: 11px;
+    width: 18px;
+}
+.header1{
+    height: 100px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home li{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#home button{
+    border: none;
+}
+#home{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    left: 10px;
+    width: 95%;
+    min-width: 200px;
+    z-index: 1;
+    background-color: rgb(230, 219, 219);
+    padding-left: 10px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+.dropdown-content .images{
+    position: absolute;
+    right: 20px;
+    top:60px;
+}
+.dropdown-content table th a{
+    color: black;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: -30px;
+}
+.dropdown-content table td{
+    width: 250px;
+}
+.dropdown-content table td a{
+    color: rgb(46, 43, 43);
+}
+.dropdown-content pre{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(65, 57, 57);
+}
+.dropdown-content a{
+    color: blue;
+    display: block;
+    text-decoration: none;
+}
+.dropbtn:hover .dropdown-content{
+    display: block;
+}
+.home button{
+    border: 0px;
+    cursor: pointer;
+}
+#second #heartdrop button:hover{
+    color: red;
+}
+#animation{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#animation img{
+    height: 350px;
+}
+.shopby {
+    text-align: center;
+    background-color: rgb(133, 163, 26);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+}
+#pdt img {
+    height: 350px;
+    width: 278px;
+}
+.anc{
+    position: absolute;
+    top:870px;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.pnt {
+    overflow: auto;
+    /* white-space: nowrap; */
+    background-color: white;
+}
+#pdt table th{
+    text-align: center;
+    font-size: 20px;
+}
+#pdt table td{
+    text-align: center;
+}
+#summer img{
+    width: 100%;
+    padding-top: 10px;
+}
+.bestof img{
+    width: 100%;
+}
+.symbolesimg table{
+    width: 100%;
+}
+.symbolesimg table td{
+    padding-top: 10px;
+    text-align: center;
+}
+.foter{
+    background-color: rgb(56, 56, 73);
+}
+.foter table{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.foter table th{
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.foter table a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.foter table a:hover{
+    text-decoration: underline;
+}
+.foter hr{
+    color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+}
+.payment {
+    padding-top: 20px;
+}
+.payment h5{
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.payment1 img{
+    height: 20px;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.payment{
+    padding-left: 40px;
+}
+#linktohome a,par{
+    text-decoration: none;
+    color: rgb(116, 109, 109);
+    padding-top: 20px;
+    padding-left: 5px;
+}
+#linktohome {
+    padding-bottom: 20px;
+}
+#forms h3 {
+    padding-bottom: 10px;
+}
+#forms li a{
+    text-decoration: none;
+    color: black;
+}
+.drop2{
+    width: 250px;
+    margin: 40px auto;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.drop2 hr{
+    color: rgb(108, 108, 121);
+    margin-left: 0px;
+}
+span:after{
+    float:left;
+    content: "+";
+}
+.slide {
+    clear: both; 
+    width: 100%;
+    height: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    text-align: left;
+    transition: height .4s ease;
+}
+#forms{
+    position: absolute;
+    left: 10px;
+}
+.slide li {
+    padding: 5px;
+    padding-left: 10px;
+}
+.slide li a{
+    padding-left: 15px;
+}
+#touch {position: absolute;
+opacity: 0; height: 0px;}
+#touch:checked + .slide {height: 160px;}
+#touch1 {position: absolute;
+    opacity: 0; height: 0px;}
+#touch1:checked + .slide {height: 160px;}
+#touch2 {position: absolute;
+    opacity: 0; height: 0px;}
+#touch2:checked + .slide {height: 160px;}
+#touch3 {position: absolute;
+    opacity: 0; height: 0px;}
+#touch3:checked + .slide {height: 160px;}
+#touch4 {position: absolute;
+    opacity: 0; height: 0px;}
+#touch4:checked + .slide {height: 160px;}
+#touch5 {position: absolute;
+    opacity: 0; height: 0px;}
+#touch5:checked + .slide {height: 160px;}
+#touch6 {position: absolute;
+    opacity: 0; height: 0px;}
+#touch6:checked + .slide {height: 160px;}
+.drop2 span{
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#formore h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#formore button{
+    background-color: rgb(218, 202, 202);
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+#formore button a{
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    padding: 5px 30px;
+}
+#products h3{
+    font-size: 25px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+#products {
+    position: absolute;
+    left: 270px;
+}
+#products img{
+    height: 240px;
+    width: 100%;
+}
+#products a:hover{
+    height:260px;
+    width:214px;
+    background-color: rgb(65, 63, 61);
+}
+#products td{
+    text-align: center;
+    font-size: 10px;
+}
+#products pre{
+    color: rgb(140, 122, 158);
+    font-size: 10px;
+    padding: 3px 0px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#products p{
+    color: green;
+    font-size: 10px;
+}
+#products .quick{
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    top: -35px;
+    width: 100%;
+    background-color: rgb(141, 166, 175);
+}
+.foot{
+    background-color: rgb(56, 56, 73);
+    position: absolute;
+    top: 2170px;
+    width: 100%;
+}
+.foot table{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.foot table th{
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.foot table a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.foot table a:hover{
+    text-decoration: underline;
+}
+.foot hr{
+    color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:800px) {
+    .dropdown-content img{
+        height: 50px;
+        width: 70px;
+    }
+    .left-align{
+        font-size: 15px;
+    }
+    .first{
+        font-size: 10px;
+    }
+    .second{
+        position: absolute;
+        top: 17px;
+        right: 20px;
+    }
+    .search button[type="submit"]{
+        height: 25px;
+        width: 30px;
+    }
+    .second input[type="text"]{
+        height: 23px;
+        font-size: 10px;
+        padding-right: 30px;
+        padding-left: 10px;
+        padding-top: 0.1px;
+        width: 100px;
+    }
+    .second button[type="submit"]{
+        font-size: 0px;
+    }
+    .header{
+        height: 60px;
+    }
+    #products img{
+        height: 150px;
+    }
+    #products  td pre,p{
+        font-size: 7px;
+    }
+    .foot{
+        background-color: rgb(56, 56, 73);
+        position: relative;
+        width: 100%;
+    }
+    #products h3{
+        font-size: 15px;
+    }
+    #forms .drop2{
+        width: 180px;
+        margin-left: 0px;
+    }
+    #products {
+        position: absolute;
+        left: 200px;
+    }
+    .foot{
+        background-color: rgb(56, 56, 73);
+        position: absolute;
+        top: 1650px;
+        width: 100%;
+    }
+}
